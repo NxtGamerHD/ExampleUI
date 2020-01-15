@@ -4,5 +4,5 @@ branches:
 projects:
   ExampleUI:
     path: ""
-    icon: "ExampleUI.png"
+    logo: "ExampleUI.png"
 ...
