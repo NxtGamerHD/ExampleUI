@@ -1,10 +1,15 @@
-##
+<p align="center">
+    <img src=".github/.media/logo.png" width="64px" height="64px">
+</p>
 
-[Info](#-info)
+
+
+[Description](#-description)
 [Commands](#-commands)
 [Author](#-author)
+[Social Media](#-socials)
 
-## Info
+## 📙 Description
 Mit der ExampleUI kann man eine GUI öffnen!
 
 ## Commands
