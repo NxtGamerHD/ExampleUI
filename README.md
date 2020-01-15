@@ -14,3 +14,10 @@ Mit der ExampleUI kann man eine GUI öffnen!
 
 ## Author
 Der Author ist: ``SaveConnection``
+
+###
+[Social Media](#-socials)
+
+### Socials
+
+[BoomMC Discord](https://discord.gg/jkXANSq "BoomMC - Discord")
