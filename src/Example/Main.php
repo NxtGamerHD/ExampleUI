@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
   
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info(TF::GREEN . "Plugin aktiviert.");
+		$this->getLogger()->info("Plugin aktiviert.");
 		
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
 	}
 	
 	public function onDisable(){
-		$this->getLogger()->info(TF::RED . "Plugin deaktiviert.");
+		$this->getLogger()->info("Plugin deaktiviert.");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
