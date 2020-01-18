@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/SaveConnectionPE/ExampleUI/blob/master/ExampleUI.png" width="64px" height="64px">
+    <img src="https://github.com/SaveConnectionPE/ExampleUI/blob/master/ExampleUI.png" width="256px" height="256px">
 </p>
 
 
