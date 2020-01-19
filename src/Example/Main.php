@@ -8,7 +8,10 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\Player;
-use pocketmine\command\{Command, CommandSender, CommandExecutor, ConsoleCommandSender};
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+use pocketmine\command\CommandExecutor;
+use pocketmine\command\ConsoleCommandExecutor;
 
 class Main extends PluginBase implements Listener{
   
