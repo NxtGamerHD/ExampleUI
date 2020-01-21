@@ -1,24 +1,25 @@
+## ExampleUI
+
+
+
 <p align="center">
     <img src="https://github.com/SaveConnectionPE/ExampleUI/blob/master/ExampleUI.png" width="256px" height="256px">
 </p>
+ With the ExampleUI you can open a GUI via command! You can change the content in the GUI
+To do this, navigate to the ``plugin_data/ExampleUI'' folder and change the config as it suits you;)
 
+## Description
+This is an example GUI with which you can open a GUI via command.
 
-## 📙 Description
-Mit der ExampleUI kann man eine GUI öffnen!
+To do this you need a Permissions!
 
-## Commands
-``/example`` <-> Mit diesem Command öffnet man die GUI!
+You can find both in the ***Commands-Permissions*** tab
 
-# Usage
-Du kannst die GUI mit ``/example``
-Du brauchst aber die Permission ``example.use``
+## Commands-Permissions
+The Command to open the GUI is ``/example``
 
-## Author
-Der Author ist: ``SaveConnection``
+The Permissions to execute this command is ``example.use``
 
-###
-[Social Media](#-socials)
-
-### Socials
+## My Discord!
 
 [BoomMC Discord](https://discord.gg/jkXANSq "BoomMC - Discord")
