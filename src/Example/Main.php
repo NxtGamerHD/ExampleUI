@@ -2,7 +2,7 @@
 /*
 ExampleUI gemacht von SaveConnectionPE für alle!
 */
-namespace Example;
+namespace SaveConnectionPE\Example;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -18,16 +18,13 @@ class Main extends PluginBase implements Listener{
 	public $prefix = "§9§lExampleUI §8§l»§r §7";
   
 	public function onEnable(){
-		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("Plugin aktiviert.");
-		
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);		
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
 		$this->getResource("config.yml");
 	}
 	
 	public function onDisable(){
-		$this->getLogger()->info("Plugin deaktiviert.");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
