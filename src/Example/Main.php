@@ -18,13 +18,15 @@ class Main extends PluginBase implements Listener{
 	public $prefix = "§9§lExampleUI §8§l»§r §7";
   
 	public function onEnable(){
-		$this->getServer()->getPluginManager()->registerEvents($this, $this);		
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
+		$this->getLogger()->info("Plugin enabled!");
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
 		$this->getResource("config.yml");
 	}
 	
 	public function onDisable(){
+		$this->getLogger()->info("Plugin disabled!");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
