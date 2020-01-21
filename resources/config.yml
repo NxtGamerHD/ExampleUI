@@ -3,15 +3,15 @@
 ## ExampleUI - TextUI
 
 example.title: "§9§lExampleUI§r"
-example.content: "§7Dies ist der §c§lContent§r §7von der §9§lExampleUI§r"
-example.button1: "§71. Klick§r"
-example.button2: "§72. Klick§r"
-example.button3: "§73. Klick§r"
+example.content: "§7this is the §c§lContent§r §7of the §9§lExampleUI§r"
+example.button1: "§71st click§r"
+example.button2: "§72nd click§r"
+example.button3: "§73rd click§r"
 
 ## ExampleUI - Messages
 
-example.msg1: "§71. Nachricht vom §c1. Klick§r"
-example.msg2: "§72. Nachricht vom §c2. Klick§r"
-example.msg3: "§73. Nachricht vom §c3. Klick§r"
+example.msg1: "§71. Message from §c1st click§r"
+example.msg2: "§72. Message from §c2nd click§r"
+example.msg3: "§73. Message from §c3rd click§r"
 
-## Habt Spaß :)
+## Have fun :)
