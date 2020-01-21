@@ -9,5 +9,5 @@ commands:
     description: "§7Öffnet die §9§lExampleUI§r§4!"
 
 permissions:
-  example.use
+  example.use:
     description: "Allow the player to open the ExampleUI!"
