@@ -3,7 +3,7 @@
 </center>
 
 ## General
-The Main Documentation has been moved to <a title="exampleui.saveconnection.ga" href="https://exampleui.saveconnection.ga" target="_blank">exampleui.saveconnection.ga</a>
+The Main Documentation has been moved to <a title="exampleui.readthedocs.io" href="https://exampleui.readthedocs.io/" target="_blank">exampleui.saveconnection.ga</a>
 
 ## Command & Permission
 **The Command:**
