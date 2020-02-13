@@ -2,7 +2,7 @@ name: ExampleUI
 version: 1.0
 api: 3.0.0
 author: SaveConnectionPE
-main: Example\SaveConnectionPE\Main
+main: Example\Main
 
 commands:
   example:
