@@ -7,6 +7,7 @@ use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as TF;
+use pocketmine\utils\Config;
 use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -16,13 +17,13 @@ use pocketmine\command\ConsoleCommandExecutor;
 class Main extends PluginBase implements Listener{
   
 	public $prefix = "§9§lExampleUI §8§l»§r §7";
+	public $config;
   
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info("Plugin enabled!");
-		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
-		$this->getResource("config.yml");
+		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
 	}
 	
 	public function onDisable(){
