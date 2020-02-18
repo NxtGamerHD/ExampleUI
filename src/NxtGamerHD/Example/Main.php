@@ -2,7 +2,9 @@
 /*
 ExampleUI gemacht von SaveConnectionPE für alle!
 */
-namespace SaveConnectionPE\Example;
+namespace NxtGamerHD\Example;
+
+
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
